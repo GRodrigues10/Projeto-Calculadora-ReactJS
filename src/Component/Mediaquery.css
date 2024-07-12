@@ -1,0 +1,54 @@
+@media screen and (max-width:319px) {
+    .content{
+        width: 220px;
+    }
+    .result{
+        font-size: 2rem;
+    }
+    .buttons{
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (min-width:320px) and (max-width:468px) {
+    
+    .content{
+        width: 300px;
+    }
+    .result{
+        font-size: 3rem;
+    }
+    .buttons{
+        font-size: 1.3rem;
+    }
+
+}
+
+
+@media screen and (min-width:469px) and (max-width:768px) {
+
+    .content{
+        width: 300px;
+    }
+    .result{
+        font-size: 3rem;
+    }
+    .buttons{
+        font-size: 1.3rem;
+    }
+    
+}
+
+@media screen and (min-width:1200px) {
+    .content{
+        width: 600px;
+    }
+    .result{
+        font-size: 3.2rem;
+    }
+    .buttons{
+        font-size: 1.8rem;
+        height: 70px;
+    }
+}
